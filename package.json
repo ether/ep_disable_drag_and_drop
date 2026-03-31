@@ -1,7 +1,7 @@
 {
   "name": "ep_disable_drag_and_drop",
   "description": "Disable Drag and Drop in Etherpad",
-  "version": "0.0.30",
+  "version": "0.0.31",
   "author": {
     "name": "John McLear",
     "email": "john@mclear.co.uk",
@@ -12,7 +12,6 @@
     "url": "https://github.com/johnmclear/ep_disable_drag_and_drop"
   },
   "contributors": [],
-  "dependencies": {},
   "engines": {
     "node": ">=18.0.0"
   },
@@ -21,9 +20,9 @@
     "url": "https://etherpad.org/"
   },
   "devDependencies": {
-    "eslint": "^8.57.0",
+    "eslint": "^8.57.1",
     "eslint-config-etherpad": "^4.0.4",
-    "typescript": "^5.4.2"
+    "typescript": "^5.9.3"
   },
   "scripts": {
     "lint": "eslint .",
